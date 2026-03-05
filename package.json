@@ -1,6 +1,4 @@
-app.get('/', (req, res) => {
-  res.send('FDMS Backend is running successfully!');
-});{
+{
   "name": "fdms-backend",
   "version": "1.0.0",
   "description": "",

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FDMS Device Policy</string>
+    <string name="status_managed">Device is Managed</string>
+    <string name="status_unmanaged">Device is Unmanaged</string>
+    <string name="device_locked_title">Device Locked due to Overdue Payment</string>
+    <string name="device_locked_desc">Please contact FDMS support or your agent to make a payment and unlock your device immediately.</string>
+</resources>

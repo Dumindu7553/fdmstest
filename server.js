@@ -111,7 +111,7 @@ async function start() {
         } catch (e) { /* ignore */ }
     }, 300000);
 
-    server.listen(PORT, () => {
+    server.listen(PORT, '0.0.0.0', () => {
         console.log(`\n🚀 FDMS Backend running on http://localhost:${PORT}`);
         console.log(`📡 WebSocket available at ws://localhost:${PORT}/ws`);
         console.log(`📊 Health: http://localhost:${PORT}/api/health\n`);
@@ -119,3 +119,4 @@ async function start() {
 }
 
 start();
+
